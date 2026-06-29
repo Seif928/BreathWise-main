@@ -1,0 +1,49 @@
+footer {
+  margin-top: auto;
+}
+
+footer a {
+  transition: all 0.3s ease;
+}
+
+footer a:hover {
+  color: #0d6efd !important;
+  transform: translateX(5px);
+}
+
+footer i {
+  transition: all 0.3s ease;
+}
+
+footer a:hover i {
+  transform: scale(1.2);
+}
+
+footer .list-unstyled li {
+  transition: all 0.3s ease;
+}
+
+footer .list-unstyled li:hover {
+  transform: translateX(5px);
+}
+
+footer hr {
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+footer .text-uppercase {
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+footer .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+@media (max-width: 768px) {
+  footer .col-md-6 {
+    margin-bottom: 2rem;
+  }
+} 

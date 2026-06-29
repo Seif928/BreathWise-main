@@ -1,0 +1,2 @@
+web: gunicorn lung-dx-api.wsgi --log-file -
+

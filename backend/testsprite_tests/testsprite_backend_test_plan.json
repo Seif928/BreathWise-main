@@ -1,0 +1,32 @@
+[
+  {
+    "id": "TC001",
+    "title": "post apiregister register a new user",
+    "description": "Test user registration with valid details to ensure a new user account is created successfully and returns status 201."
+  },
+  {
+    "id": "TC002",
+    "title": "post apilogin authenticate user and get tokens",
+    "description": "Test user login with valid credentials to verify that JWT access and refresh tokens are returned with status 200."
+  },
+  {
+    "id": "TC003",
+    "title": "post apilogout logout user and blacklist refresh token",
+    "description": "Test user logout with a valid refresh token to confirm the token is blacklisted and logout is successful with status 200."
+  },
+  {
+    "id": "TC004",
+    "title": "get apiprofile get current user profile",
+    "description": "Test retrieval of the current user profile with a valid access token to ensure profile data is returned with status 200."
+  },
+  {
+    "id": "TC005",
+    "title": "post apipasswordreset request password reset email",
+    "description": "Test password reset request with a registered email to confirm a reset email is sent and status 200 is returned."
+  },
+  {
+    "id": "TC006",
+    "title": "post apipasswordresetconfirm confirm password reset with token",
+    "description": "Test password reset confirmation with a valid reset token and new password to verify password update and status 200 response."
+  }
+]

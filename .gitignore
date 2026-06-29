@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+media/
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# VS Code
+.vscode/
+
+# Images / Datasets (Excluded as per request)
+ml/data/
+backend/media/
+images/
+*.jpg
+*.jpeg
+*.png
+*.dicom
+*.dcm
+
+# Model Files (Optional: exclude large model files if they are too big for git)
+# *.h5
+# *.keras

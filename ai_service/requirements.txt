@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+torch
+torchvision
+grad-cam
+opencv-python
+Pillow
+scikit-learn
+numpy
+python-multipart

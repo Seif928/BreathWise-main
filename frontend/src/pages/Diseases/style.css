@@ -1,0 +1,94 @@
+/* Disease Details Page Styles */
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1) !important;
+}
+
+.list-group-item {
+  transition: all 0.3s ease;
+  border: none;
+  padding: 0.75rem 0;
+}
+
+.list-group-item:hover {
+  transform: translateX(10px);
+  background-color: rgba(13, 110, 253, 0.05) !important;
+}
+
+.list-group-item i {
+  transition: transform 0.3s ease;
+}
+
+.list-group-item:hover i {
+  transform: scale(1.2);
+}
+
+.btn-primary {
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  transform: translateX(-5px);
+  box-shadow: 0 5px 15px rgba(13, 110, 253, 0.3);
+}
+
+/* Link hover effects */
+.disease-list li a {
+  transition: all 0.3s ease;
+  color: #000;
+  text-decoration: none;
+  display: block;
+  padding: 8px 15px;
+  border-radius: 8px;
+}
+
+.disease-list li a:hover {
+  color: #0d6efd;
+  background-color: rgba(13, 110, 253, 0.1);
+  transform: translateX(10px);
+}
+
+.disease-list li a i {
+  transition: all 0.3s ease;
+  margin-right: 10px;
+}
+
+.disease-list li a:hover i {
+  transform: scale(1.2);
+  color: #0d6efd;
+}
+
+/* Animations */
+.slide-in {
+  animation: slideIn 0.5s ease-out;
+}
+
+.fade-in {
+  animation: fadeIn 0.5s ease-out;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+} 
